@@ -20,7 +20,7 @@ h1{
   
 }
 
-#screen{
+.screen{
 border: 5px solid rgb(61, 3, 92);
 width: 350px;
 margin: 80px auto;
@@ -31,7 +31,7 @@ border-radius: 8px;
 
 
 }
-input, .buttom{
+.mini-screen, .button, .big-button{
     height: 60px;
     width: 300px;
     margin: 20px;
@@ -42,17 +42,16 @@ input, .buttom{
     
     display: flex;
     justify-content: space-evenly;
-    
-        
+      
 }
-button{
+.button, .big-button{
     margin: 5px 5px;
     height: 50px;
     width: 60px;
-    font-size: 15px;
-    
+    font-size: 15px;   
   
 }
 .big-button{
     width: 135px;
+   
 }
