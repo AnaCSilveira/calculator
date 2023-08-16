@@ -25,11 +25,14 @@ function registerNumber(num) {
     } else { numberTwo += num }
 
     document.querySelector('.mini-screen').value += parseInt(num)
+    
+    console.log(num)
     }
 
 function registerOperation(x) {
     operator = x
     document.querySelector('.mini-screen').value += x
+    console.log(x);
    
 }
 
@@ -46,10 +49,21 @@ function result(r) {
     } else if (operator == '/') {
         minScreen.value = (divide(n1,n2))
     } else {minScreen.value = (multiply(n1,n2))}
+    console.log(minScreen)
 
 }
 
-
+function clean() {
+    let dell = document.querySelector('.mini-screen')
+    dell.value = ''
+    
+    let numberZero = registerNumber 
+    numberZero = ''
+    let operatorZero = registerOperation 
+    operatorZero = ''
+    let resultZero = result 
+    resultZero = ''
+}
 
 
 
