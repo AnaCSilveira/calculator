@@ -57,12 +57,9 @@ function clean() {
     let dell = document.querySelector('.mini-screen')
     dell.value = ''
     
-    let numberZero = registerNumber 
-    numberZero = ''
-    let operatorZero = registerOperation 
-    operatorZero = ''
-    let resultZero = result 
-    resultZero = ''
+    numberOne = ''
+    operator = ''
+    numberTwo = ''
 }
 
 
